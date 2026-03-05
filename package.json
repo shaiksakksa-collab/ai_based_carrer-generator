@@ -36,4 +36,15 @@
       "last 1 safari version"
     ]
   }
+  {
+  "name": "ai_based_carrer-generator",
+  "homepage": "https://shaiksakksa-collab.github.io/ai_based_carrer-generator",
+  "version": "0.1.0"
+}
+"scripts": {
+  "start": "react-scripts start",
+  "build": "react-scripts build",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -b gh-pages -d build"
+}
 }
